@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {
+        table-layout: fixed;
+      }
+
+      .board tr td {
+        text-align: center;
+        font-weight: bolder;
+        font-size: xx-large;
+        width: 150px;
+        height:150px;
+        max-width: 150px;
+        max-height: 150px;
+        border:3px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="board">
+      <tr class="row" id="row-one">
+        <td class="col"id="col-one"></td>
+        <td class="col"id="col-two"></td>
+        <td class="col"id="col-three"></td>
+      </tr>
+      <tr class="row"id="row-two">
+        <td class="col"id="col-one"></td>
+        <td class="col"id="col-two"></td>
+        <td class="col"id="col-three"></td>
+      </tr>
+      <tr class="row"id="row-three">
+        <td class="col"id="col-one"></td>
+        <td class="col"id="col-two"></td>
+        <td class="col"id="col-three"></td>
+      </tr>
+    </table>
+
+    <button id="reset">RESET</button>
+  </body>
+  <script src='app.js'></script>
+</html>
